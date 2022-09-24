@@ -1,0 +1,13 @@
+<html>
+    <script>
+        function add{
+        var a;
+        var b;
+        var c;
+        a= parseInt(document.getElementById("first number").value);
+        b= parseInt(document.getElementById("second number").value);
+        c=a+b;
+        document.getElementById("answer").value=sum;
+        }
+    </script>
+</html>

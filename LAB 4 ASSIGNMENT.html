@@ -1,0 +1,75 @@
+<html>
+<style>
+.head{
+  background-color: 277BC0;
+  text-align: center;
+  color: aquamarine;
+  padding: 20px;}
+
+	#a{
+  background-color: seagreen ;
+  text-align: center;
+  color: white;
+  padding: 20px;}
+
+	.b{
+  background-color: lavenderblush;
+  text-align: center;
+  color: black;
+  padding: 20px;}
+
+	#c{
+  background-color: FFF4CF;
+  text-align: center;
+  color: black;
+  padding: 20px;}
+
+</style>
+
+<script>
+	function AlertMessage()
+	{
+		alert("Name : SWASTIK SARKAR");
+		alert("Regno : 202000451");
+	}
+
+	function largeImg(x) 
+	{
+ 		 x.style.height = "400px";
+  		 x.style.width = "400px";
+	}
+
+	function normalImg(x)
+	{
+  		x.style.height = "200px";
+  		x.style.width = "200px";
+	}
+
+	function bigSize(x)
+	{
+		x.style.fontSize = "60px";
+	}
+
+	function smallSize(x)
+	{
+		x.style.fontSize = "30px";
+	}
+</script>
+<body>
+	<div class = "head">
+		<h1>Lab Assignment - 4</h1>
+	</div>
+
+	<div id = "a">
+		<p>click button below to see Information</p>
+		<button onclick = "AlertMessage()">Information</button>
+		<br>
+                <br>
+	</div>
+
+	<div class = "b">
+		<img onmouseover="largeImg(this)" onmouseout="normalImg(this)" src="Sourav Ganguly.jpg" width="200px" 		height="200px">
+		<p id = "demo" onmouseover ="bigSize(this)" onmouseout ="smallSize(this)">Sourav Ganguly</p>
+	</div>
+</body>
+</html>
